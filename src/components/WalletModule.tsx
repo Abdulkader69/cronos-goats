@@ -1,6 +1,6 @@
 import React from 'react';
 // Wallet start Here
-const Logo = require('../images/logo.png');
+const Logo = require('../images/3571.webp');
 
 const Wallet1 = [
   {
@@ -124,7 +124,7 @@ export default function WalletModule() {
   return (
       <div className="wallet-section relative lg:w-[calc(50%-32px)] w-full bg-gray-100 p-4 mt-20 lg:mr-8">
         <h2 className="text-dark lg:text-2xl md:text-xl text-lg uppercase leading-[1] mb-4">Wallet</h2>
-        <a href="/" className='inline-block absolute lg:-top-20 -top-16 right-0 rounded-md border-2 border-solid border-[rgb(195,30,230)] px-10 lg:py-3 py-2 lg:text-base text-sm text-white my-2 transition ease-in bg-black/80 hover:bg-[rgb(195,30,230)]'>Stake</a>
+        <a href="/" className='inline-block absolute lg:-top-20 -top-16 right-0 rounded-md px-10 lg:py-3 py-2 lg:text-base text-sm text-white my-2 transition ease-in bg-black'>Stake</a>
         <div className="hatchy-action-section flex flex-wrap justify-start items-start">
             <div className="hatchy-item hatchy-item5 flex flex-wrap sm:w-1/2 w-full">
                 {Wallet1.map((album, index) => (
